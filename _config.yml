@@ -2,6 +2,7 @@ safe: false
 lsi: false
 pygments: true
 
+url: http://hyunjong-lee.github.io
 relative_source: .
 destination: ../site-deploy/
 

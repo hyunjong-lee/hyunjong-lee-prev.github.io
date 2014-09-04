@@ -6,4 +6,4 @@ env:
   global:
   - GIT_NAME=hyunjong-lee
   - GIT_EMAIL=hyunjong.lee.s@gmail.com
-  - secure: Zg9lv+tdahTiFtPgisf0e8uMoEqJ32Sp7Dsia7C6hDVC6UbmS3jSvHe2VC6rhvyj7aOv5ChXTVPMr+nyswrpfCQ1N78w6XC9V5Vo+93vVqdFbshfN4zacWLmMByqr4zOh2qvM8h/YuI58tyBFw4G2OInUf5xH/Ka+I9flNaL+0M=
+  - secure: E5+qY+R02UsFvITzB2WxAy0M0pQQCKMQTWFPxVPnEka1vGTjOUy0qhyoh6Q32fqWjN4q3w2xkLMXmYboLFgNwGcJHGaZsmgPjkLNgVuKpOlHCbsv2cbD315yLQoBY3LmJ1Mkry7q/vwYPnC1jAngI6zmW5SObzzOwJNsuc7gQec=
