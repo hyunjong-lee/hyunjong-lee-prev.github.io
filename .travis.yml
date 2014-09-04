@@ -11,6 +11,4 @@ after_script:
   
 env:
   global:
-	- GIT_NAME=hyunjong-lee
-    - GIT_EMAIL=hyunjong.lee.s@gmail.com
     secure: "ab9837cd5931ad7bc644dcf4df7a12aa1f2f59a0"
