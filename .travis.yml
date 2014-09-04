@@ -1,13 +1,10 @@
 language: ruby
 
 install:
-  - ./rebund/run download
   - bundle install --local --path vendor/bundle
 
 script: bundle exec rake site:deploy --quiet
 
-after_script:
-  - ./rebund/run upload
   
 env:
   global:
