@@ -1,8 +1,32 @@
-url: "http://hyunjong-lee.github.io"
-username:  hyunjong-lee
-repo: hyunjong-lee.github.io
-branch: jekyll
+safe: false
+lsi: false
+pygments: true
+
+relative_source: .
 destination: ../site-deploy/
 
-# Build settings
-markdown: kramdown
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+username: hyunjong-lee
+repo: hyunjong-lee.github.io
+branch: jekyll
+
+permalink: pretty
+
+paginate: 10
+paginate_path: "blog/page:num"
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
