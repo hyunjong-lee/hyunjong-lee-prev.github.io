@@ -1,7 +1,7 @@
 language: ruby
 
 install:
-  - bundle install --local --path vendor/bundle
+  - bundle install
 
 script: bundle exec rake site:deploy --quiet
 
