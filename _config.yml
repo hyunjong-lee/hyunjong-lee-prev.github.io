@@ -6,6 +6,7 @@ branch: jekyll
 relative_source: .
 destination: ../site-deploy/
 
+permalink: pretty
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
@@ -16,12 +17,7 @@ redcarpet:
     - strikethrough
     - superscript
     - tables
-	
-pygments: true
-permalink: /post/:title
-paginate: 4
 
-	
 exclude:
   - README.md
   - Rakefile
