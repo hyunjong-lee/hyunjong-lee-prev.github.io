@@ -1,297 +1,326 @@
-/* Common /* /
-
-{
-margin: 0;
-padding: 0;
+/* A modified default Jekyll theme
+/*
+/* Improvements include:
+/*
+/* 1. Responsive Template: Added media-queries so that it works well
+/*    on a wide-range of screens.
+/*
+ 
+The MIT License (MIT)
+ 
+Copyright (c) 2013 Kashyap
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+ 
+ 
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+/* Global Reset */
+ 
+ 
+* {
+  margin: 0;
+  padding: 0;
 }
-
-html, body {
-
-height: 100%;
-width: 100%;
--webkit-font-smoothing: antialiased;
-}
-
+ 
+html, body { height: 100%; }
+ 
 body {
-
-color: #333;
-background-color: #fafbfc;
-font-family: 'Raleway', Arial, sans-serif;
-font-weight: 400;
-font-size: 0.85em;
-overflow: hidden;
+  background-color: #FFF;
+  font-size: 130%;
+  font-family: calluna, Calluna, Georgia;
+  font-weight: 300;
+  line-height: 1.55em;
+  padding: 0 2em;
+  text-rendering: optimizeLegibility;
+  color: #555;
 }
-
-a {
-
-color: #8085C1;
-text-decoration: none;
-border: none;
+ 
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: adelle, Adelle, Georgia;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
 }
-
-a img {
-
-outline: none;
+ 
+h1 {
+  font-size: 170%;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.4em;
 }
-
-a:hover {
-
-color: #555;
-border: none;
+ 
+h2 {
+  font-size: 150%;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.4em;
 }
-
-.separator {
-
-color: #555;
+ 
+h3 {
+  font-size: 130%;
+  margin-top: 3.25em;
+  margin-bottom: 0.5em;
+  line-height: 1.4em;
 }
-
-/
-
-/* /* Home /* /*****************************************************************************/ logo {
-
-max-width: 128px;
+ 
+h4 {
+  font-size: 110%;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.4em;
 }
-
-.posts a {
-
-color: #444;
+ 
+h5 {
+  font-size: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.4em;
 }
-
-.posts a:hover {
-
-color: #777;
+ 
+p {
+  margin: 0.5em 0 2.5em;
 }
-
-.posts-list {
-
-list-style-type: none;
+ 
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+ 
+ 
+blockquote {
+  padding: 0.1em 1.3em;
+  background: #fafafa;
+  border-left: 5px #81E26D solid;
+  color: #666;
 }
-
-.posts-list li {
-
-text-align: center;
-line-height: 1.75em;
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
 }
-
-/*****************************************************************************/ /* /* Site /* /*****************************************************************************/
-
+ 
+ul.posts li {
+  line-height: 1.75em;
+  margin-bottom: 1em;
+}
+ 
+ul.posts span {
+  color: #aaa;
+  font-family: "Inconsolata", Consolas, "Courier New", monospace;
+  font-size: 80%;
+  display: list-item;
+}
+ 
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+ 
 .site {
-
-height: 100%;
-width: 100%;
-line-height: 1.25em;
+  margin: auto;
+  max-width: 34em;
+  padding: 0 1em;
+  color: #333;
 }
-
-.title {
-
-display: inline-block;
-text-align: center;
+ 
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
 }
-
-.tagline {
-
-width: 100%;
-color: #777;
-text-align: center;
-margin-top: 0.5em;
-display: block;
+ 
+.site .header h1.title {
+  display: inline-block;
+  font-size: 180%;
 }
-
-.posts {
-
-border-top: 1px solid #e7e7e7;
-margin-top: 1em;
-padding-top: 1.5em;
-padding-bottom: 1.25em;
+ 
+.site .header h1.title a {
+  color: #a00;
 }
-
-.footer {
-
-font-size: 0.95em;
-border-top: 1px solid #e7e7e7;
-padding-top: 1.25em;
-padding-bottom: 1.5em;
-overflow: hidden;
-float: center;
-text-align: center;
+ 
+.site .header h1.title a:hover {
+  color: #000;
 }
-
-/*****************************************************************************/ /* /* Posts /* /*****************************************************************************/
-
-date {
-
-padding-top: 0.5em;
-margin-bottom: 2em;
+ 
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1em;
 }
-
-cover-photo-container, info-container {
-
-display: block;
+ 
+.site .header a.extra:hover {
+  color: #000;
 }
-
-info-container {
-
-margin-top: 3em;
+ 
+.site .meta {
+  color: #aaa;
 }
-
-title {
-
-color: #494949;
-margin-bottom: 0.35em;
-font-size: 3.5em;
-text-transform: uppercase;
+ 
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
 }
-
-.post {
-
-line-height: 24px;
-max-width: 725px;
-clear: both;
+ 
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
 }
-
-.post h2 {
-
-margin-top: 1.25em;
-margin-left: -0.5em;
-margin-bottom: 1.25em;
+ 
+.site .footer .contact a {
+  color: #8085C1;
 }
-
-.post a, about a {
-
-border-bottom: 1px dashed #8085C1;
+ 
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
 }
-
-.post a:hover {
-
-border: none;
+ 
+.site .footer .rss img {
+  border: 0;
 }
-
-/* standard */ .post pre {
-
-border: 1px solid #ddd;
-background-color: #eef;
-padding: 0 .4em;
+ 
+pre {
+  font-family: 'PT Mono', Consolas, "Inconsolata", "Courier New", monospace;
+  overflow: auto;
+  margin: 1em auto;
 }
-
-.post p {
-
-font-family: 'Source Sans Pro', Arial, sans-serif;
-font-size: 1.1em;
-margin-bottom: 1.45em;
-text-align: justify;
+ 
+code {
+  font-family: 'PT Mono', Consolas, "Inconsolata", "Courier New", monospace;
 }
-
+ 
+ 
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+ 
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  line-height: 1em;
+  padding: 0.2em 0.5em;
+}
+ 
 .post ul, .post ol {
-
-margin-left: 2.35em;
-margin-bottom: 1.25em;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
 }
-
+ 
 .post code {
-
-border: 1px solid #ddd;
-background-color: #eef;
-padding: 0 .2em;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  font-size: 0.7em;
+ 
 }
-
+ 
 .post pre code {
-
-border: none;
+  border: none;
 }
-
-/* terminal */ .post pre.terminal {
-
-border: 1px solid #000;
-background-color: #333;
-color: #FFF;
+ 
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
 }
-
+ 
 .post pre.terminal code {
-
-background-color: #333;
+  background-color: #333;
 }
-
-/*****************************************************************************/ /* /* Sidebar and Content /* /*****************************************************************************/
-
-.sidebar, .content {
-
-vertical-align: top;
-height: 100%;
--webkit-overflow-scrolling: touch;
-overflow-y: auto;
-overflow-x: hidden;
+ 
+.post {
+  text-align: justify;
 }
-
-.sidebar {
-
-float: left;
-width: 14%;
-padding-left: 11em;
-padding-right: 2.125em;
-border-right: 1px solid #e7e7e7;
+ 
+/************************************************************************/
+/*    Media Queries
+/*
+/************************************************************************/
+ 
+ 
+ 
+ 
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 130%;
+    padding: 0 4em;
+  }
+  .post code {
+    font-size: 85%;
+  }
+ 
+  pre code {
+    line-height: 1.6em;
+  }
 }
-
-.content {
-
-padding-left: 2.125em;
+ 
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 125%;
+    padding: 0 1.5em;
+  }
+ 
+  .post code {
+    font-size: 80%;
+  }
+ 
+  pre code {
+    font-size: 80%;
+  }
 }
-
-.header {
-
-text-align: center;
-padding-top: 2.5em;
-font-size: 1.1em;
+ 
+ 
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 120%;
+    padding: 0 0.5em;
+  }
+ 
+  .footer {
+    text-align: center;
+    padding: 1em;
+  }
+ 
+  .contact {
+    width: 100%;
+  }
+ 
+  .post code {
+    font-size: 85%;
+  }
 }
-
-.post-link {
-
-margin-bottom: 0.75em;
-}
-
-.post-title {
-
-font-weight: 600;
-font-size: 1.4em;
-text-transform: uppercase;
-}
-
-.post-date {
-
-color: #8a8a8a;
-font-family: Monaco, "Courier New", monospace;
-font-weight: 600;
-font-size: 0.65em;
-display: block;
-text-transform: lowercase;
-}
-
-sidebar-button {
-
-height: intrinsic;
-cursor: pointer;
-display: none;
-padding: 15px 5px 0px 0px;
-margin-bottom: 10px;
-border-bottom: 1px solid #e7e7e7;
-}
-
-sidebar-button:active, sidebar-button:hover {
-
-opacity: 0.7;
-}
-
-/*****************************************************************************/ /* /* Colophon /* /*****************************************************************************/
-
-.colophon {
-
-margin-top: 1.5em;
-margin-bottom: 1.45em;
-border-top: 1px dotted #e7e7e7;
-}
-
-.colophon p {
-
-margin-top: 1.25em;
-font-size: 0.95em;
-color: #777;
+ 
+@media screen and (max-width: 320px) {
+  body {
+    padding: 0;
+  }
 }
