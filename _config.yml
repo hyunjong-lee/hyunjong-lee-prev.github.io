@@ -18,6 +18,9 @@ redcarpet:
     - superscript
     - tables
 
+sass:
+    style: :compressed
+	
 exclude:
   - README.md
   - Rakefile
