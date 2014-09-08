@@ -1,13 +1,9 @@
 language: ruby
 install:
-- ./rebund/run download
-- bundle install --path vendor/bundle
+- bundle install
 script: bundle exec rake site:deploy --quiet
-after_script:
-- ./rebund/run upload
 env:
   global:
   - GIT_NAME=hyunjong-lee
   - GIT_EMAIL=hyunjong.lee.s@gmail.com
-  - REBUND_ENDPOINT=http://hyunjong-lee-keyfile.herokuapp.com
-  - secure: HazdNOKQdGhFbiuke36bzZYxAcRI8sKFfss/oGKZzkmEsAObTGzQgaKPKPmVSbGTMBJzeO3tx7kC7I/OJU27Srxwj1RoekLtDlSYKjFGLvHTlHXLpVXePyXI/c+m9CNhMHzl5hA2NCsdOvjHn9ZoSiLn4qz1c9HxB07826/c8k0=
+  - secure: E5+qY+R02UsFvITzB2WxAy0M0pQQCKMQTWFPxVPnEka1vGTjOUy0qhyoh6Q32fqWjN4q3w2xkLMXmYboLFgNwGcJHGaZsmgPjkLNgVuKpOlHCbsv2cbD315yLQoBY3LmJ1Mkry7q/vwYPnC1jAngI6zmW5SObzzOwJNsuc7gQec=

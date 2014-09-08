@@ -27,4 +27,3 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
-  - TokenGenerator
