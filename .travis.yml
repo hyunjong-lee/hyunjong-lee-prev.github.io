@@ -10,4 +10,4 @@ env:
   - GIT_NAME=hyunjong-lee
   - GIT_EMAIL=hyunjong.lee.s@gmail.com
   - REBUND_ENDPOINT=http://hyunjong-lee-keyfile.herokuapp.com
-  - secure: eAclVgqHzcBr0s3mrczTzST3uuiKbM8pyEtLsN185ksNyquRZTbbXmDnwL6b21Mq/HCUqGuenx096EMskppVUK15DhRChtWuZjVV44r6/deXXXOBfpGaC4PTR2WGbPHNR/NRAUtOg7wMsWWV9BySPLHBuIfn6pM9M+xoTAu2Xng=
+  - secure: YTBmrd8/3nlaWXmT1P5bX1c/3fG98Q8yP4ZrtXo+oYvDKX4ehONjbBfvpZY7mymie4lEp5gesaWgbisU3i0AAhmP8qNeX6j3wJJxanzydi89GL268hsu65ignTPguXpeTPgEwhljSkIHAC5U+HV20QvdRStTl9buC8ZuJLpPGPI=
