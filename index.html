@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Home
 ---
-<div class="posts">
-      {% for post in site.posts %}{% if post.hidden != true %}<a href="sample.html" class="post-link">{{ post.title }}</a>
-      {% endif %}{% endfor %}
-</div>
+
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
