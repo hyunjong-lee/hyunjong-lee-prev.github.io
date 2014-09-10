@@ -9,7 +9,6 @@ destination: ../site-deploy/
 permalink: pretty
 highlighter: pygments
 markdown: redcarpet
-pygments: true
 redcarpet:
   extensions:
     - no_intra_emphasis
