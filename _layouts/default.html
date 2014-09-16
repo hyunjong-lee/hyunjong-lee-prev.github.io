@@ -2,8 +2,8 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta name="description" content="Personal blog of Berk Özbalcı, about computers, math and music">
-      <meta name="author" content="Berk Özbalcı">
+      <meta name="description" content="Personal blog of Hyunjong Lee, about machine learning, and algorithms">
+      <meta name="author" content="Hyunjong Lee">
       <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="/css/syntax.css">
       <link rel="stylesheet" href="/css/main.css">
@@ -23,19 +23,5 @@
          {{ content }}
          {% include comments.html %}
       </main>
-      <script type="text/javascript">
-          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-          var disqus_shortname = 'hyunjonglee'; // required: replace example with your forum shortname
-                      var disqus_identifier = '{{ page.url }}';
-          var disqus_url = 'http://hyunjong-lee.github.com{{ page.url }}';
-       
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function () {
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-          }());
-      </script>
    </body>
 </html>
