@@ -3,13 +3,31 @@
    <title></title>
    <link href="http://hyunjong-lee.github.io/atom.xml" rel="self"/>
    <link href="http://hyunjong-lee.github.io"/>
-   <updated>2014-09-16T17:45:42+00:00</updated>
+   <updated>2014-09-18T03:44:05+00:00</updated>
    <id>http://hyunjong-lee.github.io</id>
    <author>
       <name></name>
       <email></email>
    </author>
 
+   
+   <entry>
+      <title>Test Post</title>
+      <link href="http://hyunjong-lee.github.io/life/2014/09/18/Test-Post/"/>
+      <updated>2014-09-18T12:41:00Z</updated>
+      <id>http://hyunjong-lee.github.io/life/2014/09/18/Test-Post</id>
+      <content type="html">&lt;p&gt;Just Test&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go
+
+&lt;ul&gt;
+&lt;li&gt;GO GO&lt;/li&gt;
+&lt;li&gt;Go Go Go&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+   </entry>
    
    <entry>
       <title>Turning Point</title>
