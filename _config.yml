@@ -1,30 +1,14 @@
-url: http://hyunjong-lee.github.io
-baseurl: http://hyunjong-lee.github.io
-username: hyunjong-lee
-repo: hyunjong-lee.github.io
-branch: jekyll
-relative_source: .
-destination: ../site-deploy/
+name: Human Learning
+description: D
+meta_description: "E"
 
-permalink: pretty
-highlighter: pygments
 markdown: redcarpet
-redcarpet:
-  extensions:
-    - no_intra_emphasis
-    - fenced_code_blocks
-    - autolink
-    - strikethrough
-    - superscript
-    - tables
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
 
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - TokenGenerator
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Hyunjong Lee'
