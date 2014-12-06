@@ -3,4 +3,5 @@ layout: page
 title: About
 ---
 
-Cosmosworld
+-- Name: Hyunjong Lee
+
