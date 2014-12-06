@@ -11,6 +11,7 @@ description: D
 meta_description: "E"
 
 markdown: redcarpet
+highlighter: pygments
 logo: true
 paginate: 15
 domain_name: 'http://hyunjong-lee.github.io'
