@@ -12,6 +12,15 @@ meta_description: "E"
 
 markdown: redcarpet
 highlighter: pygments
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - strikethrough
+    - superscript
+    - tables
+
 logo: true
 paginate: 15
 domain_name: 'http://hyunjong-lee.github.io'
