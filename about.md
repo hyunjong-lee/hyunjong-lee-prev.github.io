@@ -3,5 +3,12 @@ layout: page
 title: About
 ---
 
--- Name: Hyunjong Lee
+* Hyunjong Lee (Peter)
+
+## Interested in
+
+* Problem Solving
+* Machine Learning
+
+
 

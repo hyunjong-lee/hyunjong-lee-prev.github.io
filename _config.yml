@@ -1,5 +1,5 @@
 url: http://hyunjong-lee.github.io
-baseurl: /
+baseurl: http://hyunjong-lee.github.io
 username: hyunjong-lee
 repo: hyunjong-lee.github.io
 branch: jekyll
@@ -7,8 +7,8 @@ relative_source: .
 destination: ../site-deploy/
 
 name: Human Learning
-description: D
-meta_description: "E"
+description: Learning Anything or Nothing
+meta_description: "Human Learning & Machine Learning"
 
 markdown: redcarpet
 highlighter: pygments
@@ -27,7 +27,7 @@ domain_name: 'http://hyunjong-lee.github.io'
 
 # Details for the RSS feed generator
 url:            'http://hyunjong-lee.github.io'
-author:         'Hyunjong Lee'
+author:         'Peter'
 
 exclude:
   - README.md
