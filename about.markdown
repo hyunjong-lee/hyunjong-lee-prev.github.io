@@ -37,8 +37,8 @@ title: About
 
 ## Skills
 
-* *I have a very particular set of skills of system/server/web.*
-* *I will have a very particular set of skills of machine learning & mobile.*
+* *I have a very particular set of skills - system/server/web.*
+* *I will have a very particular set of skills - machine learning & mobile.*
 * C/C++, C#
 * MS-SQL, MySQL, Sqlite, MongoDB
 * ASP.net, Nancy
