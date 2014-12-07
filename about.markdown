@@ -9,6 +9,9 @@ title: About
 * [Twitter]
 * [SlideShare]
 * [GitHub]
+* [Algospot]
+* [TopCoder]
+* [acmicpc.net]
 
 
 ## Interested in
@@ -49,5 +52,7 @@ title: About
 [GitHub]: https://github.com/hyunjong-lee
 [Machine Learning in coursera]: /assets/pdf/ml-coursera.pdf
 [Probabilistic Graphical Models in coursera]: /assets/pdf/pgm-coursera.pdf
-
+[Algospot]: https://algospot.com/user/profile/475
+[TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
+[acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
 
