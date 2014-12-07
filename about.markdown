@@ -15,6 +15,7 @@ title: About
 
 * Problem Solving
 * Machine Learning
+* Education System
 
 
 ## Majored in
@@ -33,9 +34,12 @@ title: About
 
 ## Skills
 
+* *I have a very particular set of skills of system/server/web.*
+* *I will have a very particular set of skills of machine learning & mobile.*
 * C/C++, C#
 * MS-SQL, MySQL, Sqlite, MongoDB
-* Server Programming
+* ASP.net, Nancy
+* AngularJS
 
 
 [LinkedIn]: https://www.linkedin.com/pub/hyunjong-lee
