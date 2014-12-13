@@ -21,8 +21,9 @@
     <item>
       <title>블로그 개시</title>
       <link>http://hyunjong-lee.github.io/blog/2014/09/17/Turning-Point.html</link>
-      <description>&lt;p&gt;워드프레스에 가입도 하고 엔진을 설치하고 나서 포스팅을 하지 않아 결국 모두 실패하였습니다.
-지인이 GitHub 를 활용해 블로그를 구축한 것을 본 후 블로그가 버전관리 될 수 있다는 점이 매우 맘에 들어 설치하고 뿌듯했습니다.&lt;/p&gt;
+      <description>&lt;p&gt;워드프레스에 가입도 하고 블로그 엔진을 설치해보기도 했지만 포스팅을 하지 않아 모두 실패하였습니다.
+블로그는 포기하려고 하였는데 지인이 GitHub 를 활용해 블로그를 구축한 것을 보았습니다.
+GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있다는 점이 매우 맘에 들어 설치하고 뿌듯했습니다.&lt;/p&gt;
 </description>
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
