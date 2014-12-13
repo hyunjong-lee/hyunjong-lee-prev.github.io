@@ -30,4 +30,5 @@ categories: blog
 
 2015년 연말에 이 블로그의 포스팅 개수를 한번 세봐야겠네요.
 
+
 [github pages와 jekyll을 활용한 blog 만들기]: http://lacti.me/2014/06/23/blog-with-github-pages-and-jekyll/
