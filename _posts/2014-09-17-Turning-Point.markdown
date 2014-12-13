@@ -1,34 +1,32 @@
 ---
 layout: post
-title:  Turning Point
+title:  블로그 개시
 date:   2014-09-17 2:05:00
-categories: life
+categories: blog
 ---
 
-I set up my blog using GitHub & Jekyll in September. 2014.
-I had been installed many blogs like WordPress, however, no one is used in these days.
-I just focused on appearance of blog and did not concentrated on writing posts.
-In this time, I want to make a change that writing posts first and appearance later.
+워드프레스에 가입도 하고 엔진을 설치하고 나서 포스팅을 하지 않아 결국 모두 실패하였습니다.
+지인이 GitHub 를 활용해 블로그를 구축한 것을 본 후 블로그가 버전관리 될 수 있다는 점이 매우 맘에 들어 설치하고 뿌듯했습니다.
+* 개설하는 방법은 [github pages와 jekyll을 활용한 blog 만들기] 를 참조
 
-Topics that I want to cover are follows.
+블로그에서 가장 중요한 점은 좋은 글과 꾸준한 포스팅일텐데 이젠 좀 제대로 블로그를 해볼까 합니다.
+이 블로그에서 다루고 싶은 주제는 다음과 같습니다.
 
-* **Machine Learning**
-  - Machine learning is the most hot area in computer science in these days.
-  - I want to read [Pattern Recognition and Machine Learning] written by [Christopher M. Bishop].
-  - I will (if I could) summary the book and writing posts steadily.
+* Machine Learning
+  - 저는 수학도 약하고 이해도 느린 편이라 매우 고생중인데 그래도 기계학습이 재밌어 보여서 꾸준히 해보고자 합니다.
 
-* **Collaborative Teaching Project**
-  * Open Lectures are provieded by coursera, edX, c<>deSchool, and etc.
-  * However, I feel that we need a system which can interact with others to discuss through internet to help understand well.
-  * Role model for this project is [slack].
+* 교육 플랫폼
+  - 특정 개념에 대해 이해할 때 가장 좋은건 잘하는 사람에게 물어보고 토론하는 것이라고 생각하는데 '온라인에서 효과적으로 토론할 수 있는 시스템'은 없을까 고민중 입니다.
 
-* **Programming Techniques**
-  * To share or archive, some posts will be useful techniques for programming.
+* 프로그래밍 테크닉
+  - 개발자 경력 4~5년차에 접어드는데 제가 했던 경험도 공유할 수 있으면 합니다.
 
+* 책 후기?
+  - 대학 졸업 이후 기술서 이외엔 읽은 책이 거의 없었는데 ... 이젠 좀 읽어볼까 합니다. 그리고 간략하게나마 제가 느낀 부분을 정리하려고 합니다.
 
-One year later, I hope about 40 posts are registered by myself!
+사설이 많이 길었는데 취미생활로 공부하거나 짜봤던 것들을 모두 여기에서 정리할 생각입니다.
+연관코드도 GitHub에서 작업할 예정인데 일년뒤엔 포스팅이 40개정도는 올라올 수 있을만큼 제가 꾸준히 했으면 하는 바램입니다.
 
+2015년 연말에 이 블로그의 포스팅 개수를 한번 세봐야겠네요.
 
-[Pattern Recognition and Machine Learning]:http://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738
-[Christopher M. Bishop]:http://en.wikipedia.org/wiki/Christopher_Bishop
-[slack]:https://slack.com
+[github pages와 jekyll을 활용한 blog 만들기]: http://lacti.me/2014/06/23/blog-with-github-pages-and-jekyll/
