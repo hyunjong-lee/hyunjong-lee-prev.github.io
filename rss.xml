@@ -12,30 +12,21 @@
     <item>
       <title>Community Analysis Start!</title>
       <link>http://hyunjong-lee.github.io/mining/2014/12/13/Community_Analysis_Start.html</link>
-      <description>&lt;p&gt;관심있는 분야 중 하나인 데이터마이닝에 대해 실험을 시작하였습니다.&lt;/p&gt;
+      <description>&lt;p&gt;제가 관심있는 분야 중 하나인 데이터마이닝에 대해 실험을 시작하였습니다.
+첫 목표는 &amp;#39;커뮤니티 사이트 분석을 통해 고객의 호불호를 파악할 수 있는가&amp;#39;입니다.&lt;/p&gt;
 </description>
       <pubDate>Sat, 13 Dec 2014 04:15:00 -0000</pubDate>
       <dc:date>2014-12-13T04:15:00Z</dc:date>
     </item>
     <item>
-      <title>Turning Point</title>
-      <link>http://hyunjong-lee.github.io/life/2014/09/17/Turning-Point.html</link>
-      <description>&lt;p&gt;I set up my blog using GitHub &amp;amp; Jekyll in September. 2014.
-I had been installed many blogs like WordPress, however, no one is used in these days.
-I just focused on appearance of blog and did not concentrated on writing posts.
-In this time, I want to make a change that writing posts first and appearance later.&lt;/p&gt;
+      <title>블로그 개시</title>
+      <link>http://hyunjong-lee.github.io/blog/2014/09/17/Turning-Point.html</link>
+      <description>&lt;p&gt;워드프레스에 가입도 하고 엔진을 설치하고 나서 포스팅을 하지 않아 결국 모두 실패하였습니다.
+지인이 GitHub 를 활용해 블로그를 구축한 것을 본 후 블로그가 버전관리 될 수 있다는 점이 매우 맘에 들어 설치하고 뿌듯했습니다.
+* 개설하는 방법은 &lt;a href=&quot;http://lacti.me/2014/06/23/blog-with-github-pages-and-jekyll/&quot;&gt;github pages와 jekyll을 활용한 blog 만들기&lt;/a&gt; 를 참조&lt;/p&gt;
 </description>
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
-    </item>
-    <item>
-      <title>Welcome to Jekyll!</title>
-      <link>http://hyunjong-lee.github.io/thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html</link>
-      <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 10 Nov 2013 10:18:00 -0000</pubDate>
-      <dc:date>2013-11-10T10:18:00Z</dc:date>
     </item>
     <dc:date>2014-12-13T04:15:00Z</dc:date>
   </channel>
