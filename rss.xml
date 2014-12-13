@@ -8,7 +8,15 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
+    <pubDate>Sat, 13 Dec 2014 04:15:00 -0000</pubDate>
+    <item>
+      <title>Community Analysis Start!</title>
+      <link>http://hyunjong-lee.github.io/mining/2014/12/13/Community_Analysis_Start.html</link>
+      <description>&lt;p&gt;관심있는 분야 중 하나인 데이터마이닝에 대해 실험을 시작하였습니다.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 13 Dec 2014 04:15:00 -0000</pubDate>
+      <dc:date>2014-12-13T04:15:00Z</dc:date>
+    </item>
     <item>
       <title>Turning Point</title>
       <link>http://hyunjong-lee.github.io/life/2014/09/17/Turning-Point.html</link>
@@ -29,6 +37,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
       <pubDate>Sun, 10 Nov 2013 10:18:00 -0000</pubDate>
       <dc:date>2013-11-10T10:18:00Z</dc:date>
     </item>
-    <dc:date>2014-09-17T02:05:00Z</dc:date>
+    <dc:date>2014-12-13T04:15:00Z</dc:date>
   </channel>
 </rss>
