@@ -3,15 +3,9 @@ layout: page
 title: About
 ---
 
-* Hyunjong Lee (Peter)
+* Hyunjong Lee
 * [LinkedIn]
-* [Facebook]
-* [Twitter]
 * [SlideShare]
-* [GitHub]
-* [Algospot]
-* [TopCoder]
-* [acmicpc.net]
 
 
 ## Interested in
@@ -26,7 +20,7 @@ title: About
 * Computer Science & Engineering
 * Natural Language Processing
 * Sentiment Analysis
-* Topic Modeling
+* Topic Model
 
 
 ## Certificated
@@ -37,8 +31,7 @@ title: About
 
 ## Skills
 
-* *I have a very particular set of skills - system/server/web.*
-* *I will have a very particular set of skills - machine learning & mobile.*
+* *system/server/web*
 * C/C++, C#
 * MS-SQL, MySQL, Sqlite, MongoDB
 * ASP.net, Nancy
