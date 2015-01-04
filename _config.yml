@@ -10,8 +10,9 @@ name: Human Learning
 description: Learning Anything or Nothing
 meta_description: "Human Learning & Machine Learning"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
+
 redcarpet:
   extensions:
     - no_intra_emphasis
@@ -20,6 +21,23 @@ redcarpet:
     - strikethrough
     - superscript
     - tables
+
+kramdown:
+  auto_ids:      true
+  footnote_nr:   1
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  use_coderay:   false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
 
 logo: true
 paginate: 15
