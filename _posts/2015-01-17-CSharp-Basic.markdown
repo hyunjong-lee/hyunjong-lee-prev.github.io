@@ -16,3 +16,9 @@ end
 ~~~~~~
 
 
+~~~~~~ csharp
+public static void Main(string[] args)
+{
+    return 0;
+}
+~~~~~~
