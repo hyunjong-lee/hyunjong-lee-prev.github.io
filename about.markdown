@@ -1,6 +1,8 @@
 ---
 layout: post
 title: About
+date: 2014-12-17 0:00:00
+categories: tech
 ---
 
 * Hyunjong Lee
