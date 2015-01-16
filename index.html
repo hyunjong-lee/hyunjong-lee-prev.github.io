@@ -55,11 +55,14 @@
             <h2 class="post-title"><a href="/tech/2015/01/17/CSharp-Basic.html">C# Basic</a></h2>
         </header>
         <section class="post-excerpt">
-            <p class="language-ruby">~~~
- # Output &#8220;I love Ruby&#8221;
- say = &#8220;I love Ruby&#8221;
- puts say
- ~~~</p>
+            <pre><code class="language-ruby">def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+</code></pre>
 
  <a class="read-more" href="/tech/2015/01/17/CSharp-Basic.html">&raquo;</a>
         </section>

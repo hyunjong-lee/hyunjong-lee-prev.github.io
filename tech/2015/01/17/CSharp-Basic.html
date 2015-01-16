@@ -58,15 +58,13 @@
         <!-- <h1 class="post-title">C# Basic</h1> -->
 
         <section class="post-content">
-            <p class="language-ruby">~~~
- # Output “I love Ruby”
- say = “I love Ruby”
- puts say
- ~~~</p>
-
-<pre><code class="language-cs">public void Main(string[] args)
-{
-}
+            <pre><code class="language-ruby">def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
 </code></pre>
 
 

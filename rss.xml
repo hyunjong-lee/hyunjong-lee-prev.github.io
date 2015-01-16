@@ -12,11 +12,14 @@
     <item>
       <title>C# Basic</title>
       <link>http://hyunjong-lee.github.io/tech/2015/01/17/CSharp-Basic.html</link>
-      <description>&lt;p class=&quot;language-ruby&quot;&gt;~~~
- # Output &amp;#8220;I love Ruby&amp;#8221;
- say = &amp;#8220;I love Ruby&amp;#8221;
- puts say
- ~~~&lt;/p&gt;
+      <description>&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
 
 </description>
       <pubDate>Sat, 17 Jan 2015 01:33:52 -0000</pubDate>
