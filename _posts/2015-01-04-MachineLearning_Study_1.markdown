@@ -5,7 +5,9 @@ date:   2015-01-04 15:23:00
 categories: Study
 ---
 
-Equation Test
+현재 [Pattern Recognition and Machine Learning](http://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738)
+을 읽고 있는데 Chapter 1을 곧 정리할 예정입니다.
+아래는 수식 입력 테스트를 위해 latex를 붙여본 예제입니다.
 
 $$
 \begin{align*}
