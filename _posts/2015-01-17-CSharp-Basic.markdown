@@ -193,8 +193,9 @@ foreach (var field in type.GetFields())
 Reflection에 대해 아주 간단히 살펴보았는데
 로드되지 않은 어셈블리를 로드하여 처리할 수도 있고
 메소드를 추출하여 실행할 수 있으며
-실행중에 필드를 추가/삭제도 할 수 있는데
-이런 Reflection을 활용하여 재미있는 작업들을 할 수 있었습니다.
+실행중에 필드를 추가/삭제도 할 수 있습니다.
+겉핥기 식으로 정리하였는데 다른 언어에 비해 C#이 훌륭한 점은 이런 부분들을 고려해서 언어를 설계했다는 점이 아닐까 싶습니다.
+아래에 정리한 Extension Methods도 어찌보면 간단할 수 있지만 C#이 편리한 이유 중 하나라고 생각합니다.
 
 
 ### <span style="color:#15317E"><a name="extension_method"></a>Extension Methods</span>
@@ -270,7 +271,6 @@ value.MyExtensionMethodAdd(1, 2): 3
 value.AddValues(1, 2, 3, 4, 5, 6, 7, 8, 9, 10): 55
 ~~~
 
-
 Extension Methods는 일종의 syntactic sugar 인데
 LINQ가 컴파일러를 고칠 필요없이 Extension Methods를 활용해 구축되었다는 사실은
 C#이 잘 설계된 언어라는 것을 이야기 해주는 사례 중 하나인 것 같습니다.
@@ -278,13 +278,117 @@ C#이 잘 설계된 언어라는 것을 이야기 해주는 사례 중 하나인
 
 ### <span style="color:#15317E"><a name="lambda_expression"></a>Lambda Expression</span>
 
+> A lambda expression is an anonymous function that you can use to create delegates or expression tree types.
+> By using lambda expressions, you can write local functions that can be passed as arguments or returned as the value of function calls.
+> Lambda expressions are particularly helpful for writing LINQ query expressions.
+
+위의 정의를 보면 lambda expression은 무명 함수 인 것을 알 수 있습니다.
+delegates 및 expression tree를 선언할 수 있다고 되어있는데 delegates는 named method에서 anonymous function과도 결합이 가능하도록 바뀌어왔습니다.
+Expression Tree는 LINQ-to-SQL에서 자주 사용하였는데 LINQ-to-SQL 코드가 실행되는 순간 SQL로 변환하기 위해 주어진 Expression Tree를 SQL 코드로 변환하는 과정을 따라가보기도 하였습니다.
+Lambda Expression을 주로 LINQ에서 많이 사용하였는데 [LINQ](#linq) 파트에서 예제를 보여드리도록 하겠습니다.
+
+Lambda Expression선언 예제는 다음과 같습니다.
+
+~~~ csharp
+Func<int, bool> myFunc = x => x == 5;
+Console.WriteLine("myFunc(1): {0}", myFunc(1));
+Console.WriteLine("myFunc(5): {0}", myFunc(5));
+
+Func<int, int> mySquare = x => x * x;
+Console.WriteLine("mySquare(1): {0}", mySquare(1));
+Console.WriteLine("mySquare(3): {0}", mySquare(3));
+Console.WriteLine("mySquare(5): {0}", mySquare(5));
+
+Func<int, int, int> myAdd = (x, y) => x + y;
+Console.WriteLine("myAdd(1, 10): {0}", myAdd(1, 10));
+Console.WriteLine("myAdd(3, 90): {0}", myAdd(3, 90));
+
+Action<int> myWork = x => Console.WriteLine("myWork({0}) is called!", x);
+myWork(1);
+myWork(10);
+~~~
+
+코드를 보시면 Func와 Action이 나뉘어 있는데 Func의 경우 반환값이 있고 Action의 경우 반환값이 없습니다.
+이러한 Func와 Action에 대해 선언된 부분을 따라가면 다음과 같습니다.
+
+~~~ csharp
+public delegate TResult Func<in T, out TResult>(T arg);
+public delegate void Action<in T>(T obj);
+~~~
+
+C#에서는 위와 같이 자주 쓰는 형태에 대해 Generic 으로 선언하여 활용할 수 있도록 하였습니다.
+Generic Type 파라메터에 in/out을 붙일 수 있는데 Covariance/Contravariance/Invariance라는 개념과 연관됩니다.
+in/out 키워드는 주어진 타입에 대해 좀 더 특정한 타입을 받을 수 있도록 혹은 주어진 타입보다 더 일반적인 타입을 받을 수 있도록 해줍니다.
+in/out이 선언되지 않았는데 같은 타입이 아닐 경우 무조건 컴파일 에러가 발생합니다.
+처음에는 C++의 Template Meta Programming과 비슷한 것이라고 이해만 하고 넘어갔는데 C#을 공부할 수록 TMP와는 좀 다른것 같습니다.
+
+아! 위 코드의 실행 결과는 다음과 같습니다.
+
+~~~ csharp
+myFunc(1): False
+myFunc(5): True
+mySquare(1): 1
+mySquare(3): 9
+mySquare(5): 25
+myAdd(1, 10): 11
+myAdd(3, 90): 93
+myWork(1) is called!
+myWork(10) is called!
+~~~
+
+저는 LINQ를 자주 사용하였는데 처음엔 delegate/expression tree 기반인지 모르고 사용하였습니다.
+나중에 이것 저것 삽질을 하고 공부도 하다보니 알게 되었는데 공부란 참 끝이 없는 것 같습니다...
+
+
 ### <span style="color:#15317E"><a name="anonymous_types"></a>Anonymous Types</span>
+
+Anonymous Type은 말그대로 무명 타입입니다.
+바로 코드를 보여드리면 다음과 같습니다.
+
+~~~ csharp
+var foo = new { ID = 1, Name = "Hyunjong", Description = "Anonymous Type 예제!", };
+Console.WriteLine(foo.ID);
+Console.WriteLine(foo.Name);
+Console.WriteLine(foo.Description);
+~~~
+
+실행결과는 다음과 같습니다.
+
+~~~ csharp
+1
+Hyunjong
+Anonymous Type 예제!
+~~~
+
+런타임에 무명객체를 만들어서 클래스의 필드처럼 접근하여 사용할 수 있습니다.
+이런 테크닉을 활용하니 코딩하기가 훨씬 수월했습니다.
+MSDN을 좀 더 자세히 살펴보면 다음과 같은 설명이 있습니다.
+
+> Anonymous types are class types that derive directly from object,
+> and that cannot be cast to any type except object.
+> The compiler provides a name for each anonymous type, although your application cannot access it.
+> From the perspective of the common language runtime,
+> an anonymous type is no different from any other reference type.
+
+위의 말을 잘 살펴보면 무명 타입은 읽기 전용이며 컴파일러가 이름을 부여하지만 프로그램에서 접근은 불가능하다고 되어 있습니다.
+즉, C# Compiler에서 무명 타입에 대해 class로 감싸서 내부적으로 처리하는 것을 알 수 있습니다.
+~~DotPeek으로 결과물을 뜯어 보여드리고 싶었지만 너무 Decompile을 잘해서 원래 코드로 보여서 실패했습니다.~~
+이런식으로 C# Compiler에서 한차례 컴파일 한 후 처리하는 경우가 상당히 많습니다.
+Lambda Expression의 경우에도 참조하는 변수들에 대해 class로 감싸 처리하며 await/async에서도 state machine으로 감싸 상태 변화를 처리합니다.
+Compiler가 조금 더 수고를 함으로써 생산성을 향상시킬 수 있도록 syntactic sugar가 많이 첨가된 것으로 생각합니다.
+
 
 ### <span style="color:#15317E"><a name="linq"></a>LINQ</span>
 
+앞에서 설명된 내용의 대부분이 LINQ와 연관되어 있습니다.
+LINQ는 크게 다음의 세가지로 나눌 수 있습니다.
 
-Lambda Expression, Anonymous Types, LINQ에 대해서는 다음에 정리해야겠네요 ^^;
-Attribute, Reflection, Expression Methods 에 대해 간략히 정리하는데에만 시간이 꽤 소요되었습니다.
+* LINQ to Objects
+* LINQ to SQL
+* LINQ to XML
+
+각각의 분량이 커서 어떻게 정리할지 좀 더 고민한 후 돌아오도록 하겠습니다.
+
 
 블로깅을 제대로 해보자는 마음으로 내용을 정리하고 있는데 정말 공부가 제대로 되는 것 같습니다.
 알던 내용도 한번 더 보게 되면서 부족한 부분이 채워지고 있습니다.
@@ -298,3 +402,8 @@ Attribute, Reflection, Expression Methods 에 대해 간략히 정리하는데�
 * [MSDN Reflection](http://msdn.microsoft.com/en-us/library/ms173183.aspx)
 * [MSDN SQL Server CREATE TABLE](http://msdn.microsoft.com/en-us/library/ms174979.aspx)
 * [MSDN Expression Methods](http://msdn.microsoft.com/en-us//library/bb383977.aspx)
+* [MSDN Lambda Expressions](http://msdn.microsoft.com/en-us/library/bb397687.aspx)
+* [MSDN Covariance and Contravariance in Generics](http://msdn.microsoft.com/en-us/library/dd799517(v=vs.110).aspx)
+* [MSDN Anonymous Types](http://msdn.microsoft.com/en-us/library/bb397696.aspx)
+* [MSDN Introduction to LINQ](http://msdn.microsoft.com/en-us/library/bb397897.aspx)
+* [MSDN Getting Started with LINQ in C#](http://msdn.microsoft.com/en-us/library/bb397933.aspx)
