@@ -45,7 +45,7 @@ domain_name: 'http://hyunjong-lee.github.io'
 
 # Details for the RSS feed generator
 url:            'http://hyunjong-lee.github.io'
-author:         'Peter'
+author:         'Hyunjong'
 
 exclude:
   - README.md
