@@ -372,7 +372,6 @@ MSDN을 좀 더 자세히 살펴보면 다음과 같은 설명이 있습니다.
 
 위의 말을 잘 살펴보면 무명 타입은 읽기 전용이며 컴파일러가 이름을 부여하지만 프로그램에서 접근은 불가능하다고 되어 있습니다.
 즉, C# Compiler에서 무명 타입에 대해 class로 감싸서 내부적으로 처리하는 것을 알 수 있습니다.
-<s>DotPeek으로 결과물을 뜯어 보여드리고 싶었지만 너무 Decompile이 잘되어 실패했습니다.</s>
 이런식으로 C# Compiler에서 한차례 컴파일 한 후 처리하는 경우가 상당히 많습니다.
 Lambda Expression의 경우에도 참조하는 변수들에 대해 class로 감싸 처리하며 await/async에서도 state machine으로 감싸 상태 변화를 처리합니다.
 Compiler가 조금 더 수고를 함으로써 생산성을 향상시킬 수 있도록 syntactic sugar가 많이 첨가된 것으로 생각합니다.
@@ -380,20 +379,135 @@ Compiler가 조금 더 수고를 함으로써 생산성을 향상시킬 수 있�
 
 ### <span style="color:#15317E"><a name="linq"></a>LINQ</span>
 
-앞에서 설명된 내용의 대부분이 LINQ와 연관되어 있습니다.
-LINQ는 크게 다음의 세가지로 나눌 수 있습니다.
+제가 C#에서 정말 좋아하는 기능 중 하나가 LINQ 입니다.
+LINQ는 Language-Integrated Query의 약자인데 예전에 일을 하며 모든 자료구조가 SQL하듯이 다룰 수 있으면 좋겠다고 생각한 적이 있었습니다.
+C#을 공부하며 실제로 그런게 있기에 좀 적잖게 놀랐었습니다.
+LINQ를 쓰면서 함수형 언어처럼 자료구조를 다룰 수 있었는데 덕분에 Scala를 공부할 때에 쉽게 입문할 수 있었습니다.
 
-* LINQ to Objects
-* LINQ to SQL
-* LINQ to XML
+본 포스팅에서 위에 설명된 내용의 대부분이 LINQ와 연관되어 있습니다.
+LINQ는 크게 LINQ to Object/SQL/XML 의 세가지로 나눌 수 있는데 중요한 점은 LINQ의 기본 인터페이스를 통해 데이터를 조작할 수 있다는 부분인 것 같습니다.
+LINQ가 지원되지 않는 새로운 형태의 데이터가 있을 경우에 인터페이스에 맞춰 구현함으로써 사용자가 확장함으로써 일관성을 유지할 수 있다는 점도 큰 장점이라고 생각합니다.
 
-각각의 분량이 커서 어떻게 정리할지 좀 더 고민한 후 돌아오도록 하겠습니다.
+모든 LINQ Query는 다음의 3단계를 거치게 됩니다.
+
+1. 데이터를 획득한다.
+2. 쿼리를 생성한다.
+3. 쿼리를 실행한다.
+
+기본적으로 LINQ는 Deferred Execution이라 불리는 지연평가를 합니다.
+그리하여 2단계의 쿼리 생성 단계에서는 쿼리가 실행되지 않고 있다가 결과물을 요구하는 함수를 만나게 되면 쿼리가 실행되기 시작합니다.
+설명을 제대로 하자면 꽤 길어질 것 같아 우선 코드부터 보여드리겠습니다.
+
+~~~ csharp
+var numbers = Enumerable.Range(1, 10).Where(e => e % 2 == 0);
+foreach (var number in  numbers)
+{
+	Console.WriteLine(number);
+}
+~~~
+
+위 코드는 1부터 10까지의 데이터에 대해 짝수만 걸러내는 기능을 하는 Where를 호출하였습니다.
+Where는 bool 형태의 값을 리턴하는 predicate형태의 lambda expression을 입력받아 해당 조건에 맞는 데이터만 다음 단계로 넘겨줍니다.
+결과는 아래와 같습니다.
+
+~~~ csharp
+2
+4
+6
+8
+10
+~~~
+
+다음 단계는 Select인데 주어진 자료구조를 원하는 형태의 자료구조로 변경할 수 있습니다.
+
+~~~ csharp
+var numbers = Enumerable.Range(1, 10)
+	.Where(e => e % 2 == 0)
+	.Select(e => e * e);
+foreach (var number in  numbers)
+{
+	Console.WriteLine(number);
+}
+~~~
+
+결과는 다음과 같습니다.
+
+~~~ csharp
+4
+16
+36
+64
+100
+~~~
+
+걸러진 짝수에 대해서 제곱을 하였는데 그에 대한 결과가 출력된 것을 확인할 수 있습니다.
+OrderBy/OrderByDescending의 경우엔 주어진 조건으로 자료구조를 오름차순/내림차순 정렬해줍니다.
+아래는 제곱한 숫자를 내림차순하는 코드입니다.
+
+~~~ csharp
+var numbers = Enumerable.Range(1, 10)
+	.Where(e => e % 2 == 0)
+	.Select(e => e * e)
+	.OrderByDescending(e => e);
+foreach (var number in  numbers)
+{
+	Console.WriteLine(number);
+}
+~~~
+
+결과는 아래와 같습니다.
+
+~~~ csharp
+100
+64
+36
+16
+4
+~~~
+
+이외에도 SelectMany, Take, ThenBy, GroupBy, Distinct, Union, 및 ToArray 등의 수많은 utility function이 존재하는데 이에 대해서는 
+MSDN의 [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)를 보시길 추천 드립니다.
+LINQ를 method chaining으로 풀어내는 방법만 보여드렸는데 query syntax도 지원하고 있습니다.
+위에서 보여드린 예제를 다음과 같이 변형할 수 있습니다.
+
+~~~ csharp
+var numbers =
+	from e in Enumerable.Range(1, 10)
+	where e % 2 == 0
+	orderby e descending
+	select e * e;
+foreach (var number in  numbers)
+{
+	Console.WriteLine(number);
+}
+~~~
+
+위 코드를 보시면 SQL 과 비슷하지만 C# 컴파일러에서 제공하는 문법이기 때문에 표준 SQL과는 거리가 좀 있는 것으로 알고 있습니다.
+재밌는 점은 위 코드를 Decompile해보면 다음과 같습니다.
+
+~~~ csharp
+foreach (int num in Enumerable
+	.Select<int, int>(
+		(IEnumerable<int>) Enumerable.OrderByDescending<int, int>(
+			Enumerable.Where<int>(Enumerable.Range(1, 10), (Func<int, bool>) (e => e % 2 == 0)),
+		(Func<int, int>) (e => e)), (Func<int, int>) (e => e * e)))
+	Console.WriteLine(num);
+~~~
+
+코드에서 보시는 대로 C# 내부에서 주어진 query syntax를 LINQ method로 변환한 것을 보실 수 있습니다.
+즉, query syntax도 C#에서 제공하는 syntactic sugar중 하나임을 알 수 있습니다.
+자세히 보시면 method chaining으로 작성한 코드와 query syntax로 작성한 쿼리가 미묘하게 다름을 확인하실 수 있습니다.
+그 중 하나는 OrderByDescending의 호출 시점인데 method chaining으로 작성했을 때엔 가장 마지막에 제곱이 된 상태에서 정렬한 반면에 query syntax로 작성한 코드는 먼저 내림차순 정렬을 시작합니다.
+저같은 경우엔 코드를 좀 더 명확히 할 수 있고 읽기 쉽다는 측면에서 method chaining을 더 선호합니다.
+처음 LINQ를 접했을 때엔 query syntax로 작성하였지만 시간이 지나며 위와 같이 미묘한 차이가 발생함을 알게 되면서 method chaining위주로 방향을 바꾸었던 것으로 기억합니다.
+주로 데이터 분석시에 많이 활용하였는데 분석에 필요한 데이터를 LINQ to SQL을 활용하여 로컬 컴퓨터의 메모리로 로드한 후 로컬 컴퓨터에서 LINQ to Objects를 활용하여 필요한 결과를 추출하였습니다.
+LINQ to SQL과 LINQ to Objects의 인터페이스가 동일하여 데이터베이스에서 해야할 작업과 로컬 컴퓨터에서 해야할 작업의 경계를 쉽게 왔다갔다 할 수 있는데 이에 대한 예제는 추후 정리해보도록 하겠습니다.
 
 
 블로깅을 제대로 해보자는 마음으로 내용을 정리하고 있는데 정말 공부가 제대로 되는 것 같습니다.
 알던 내용도 한번 더 보게 되면서 부족한 부분이 채워지고 있습니다.
-본 포스팅에 설명된 내용은 C#의 내부에 대한 설명은 없는데 다음에는 주제의 범위를 잘 정해야겠다는 교훈도 얻을 수 있었습니다.
-
+본 포스팅을 작성하며 C#의 내부에 대한 설명도 하고 싶었는데 범위를 넓게 잡아두니 그러기가 힘들단 교훈도 얻었습니다.
+그리고 글을 쓴 후 며칠 뒤 다시 보니 제가 정말 글쓰기를 못한다는 것도 알 수 있었는데 다른 블로거님들의 글도 읽으며 글쓰기 실력도 향샹시켜야겠다는 다짐도 해봅니다.
 
 
 ### 참고 자료
@@ -405,5 +519,7 @@ LINQ는 크게 다음의 세가지로 나눌 수 있습니다.
 * [MSDN Lambda Expressions](http://msdn.microsoft.com/en-us/library/bb397687.aspx)
 * [MSDN Covariance and Contravariance in Generics](http://msdn.microsoft.com/en-us/library/dd799517(v=vs.110).aspx)
 * [MSDN Anonymous Types](http://msdn.microsoft.com/en-us/library/bb397696.aspx)
-* [MSDN Introduction to LINQ](http://msdn.microsoft.com/en-us/library/bb397897.aspx)
 * [MSDN Getting Started with LINQ in C#](http://msdn.microsoft.com/en-us/library/bb397933.aspx)
+* [MSDN Introduction to LINQ](http://msdn.microsoft.com/en-us/library/bb397897.aspx)
+* [MSDN Introduction to LINQ Queries (C#)](http://msdn.microsoft.com/en-us/library/bb397906.aspx)
+* [위키백과 함수형 프로그래밍](http://ko.wikipedia.org/wiki/%ED%95%A8%EC%88%98%ED%98%95_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
