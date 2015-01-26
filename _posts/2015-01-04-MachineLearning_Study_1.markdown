@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Machine Learning Study Chapter 1
+title:  Machine Learning Chapter 1
 date:   2015-01-04 15:23:00
 categories: Study
 ---
@@ -47,10 +47,10 @@ Introduction 챕터인데도 다루는 주제가 광범위하고 깊은 것 같�
  * The Rules of Probability
 
 sum rule
-: $$ p(x) = \sum_{Y} p(X, Y) $$
+: \$$ p(X) = \sum_{Y} p(X, Y) $$
 
 product rule
-: $$ p(X, Y) = p(Y|X)p(X) $$
+: \$$ p(X, Y) = p(Y \mid X) p(X) $$
 
 $$
 \begin{align*}
@@ -58,33 +58,52 @@ $$
 \end{align*}
 $$
 
-
+ * Gaussian distribution
+ * Bayesian curve fitting
 
 > Model Selection
+
+ * validation set
+ * cross-validation
+ * leave-one-out
+ * information criteria
+ * AIC (Akaike information criteria)
+ * BIC (Bayesian information criteria)
 
 > The Curse of Dimensionality
 
 > Decision Theory
 
+ * decision boundaries, decision surfaces
+ * loss function, cost function
+ * loss matrix
+ * reject option
+ * inference stage, decision stage
+ * discriminant function
+ * three distinct approaches to solving decision problem
+   - generative models: solve inference problem for each class individually + infer prior class probabilities, then use Bayes' theorem
+   - discriminative models: solve inference problem of posterior class probabilities directly
+   - find a function f(X), called a discriminant function
+ * outlier detection, novelty detection
+ * naive Bayes model
+ 
 > Information Theory
-
-
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
+ 
+ * entropy
+ * noiseless coding theorem
+ * multiplicity
+ * microstate, macrostate
+ * Lagrange multiplier
+ * mean value theorem
+ * differential entropy
+ * conditional entropy
+ * KL divergence, Kullback-Leibler divergence, relative entropy
+ * convex function, convexity
+ * strictly convex
+ * concave
+ * strictly concave
+ * Jensen's inequality
+ * mutual information
 
 [Pattern Recognition and Machine Learning]: http://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738
 [Bishop]: http://en.wikipedia.org/wiki/Christopher_Bishop
