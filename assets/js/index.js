@@ -43,7 +43,7 @@
                 imageWidth = this.naturalWidth; // Original image resolution
 
             if (imageWidth >= contentWidth) {
-                $this.addClass('full-img');
+                //$this.addClass('full-img');
             } else {
                 $this.removeClass('full-img');
             }
