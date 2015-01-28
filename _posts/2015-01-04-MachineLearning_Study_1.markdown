@@ -58,7 +58,7 @@ $$
 
 * **linear model**: 위 다항식에서 모르는 파라메터 값은 **w**인데 이와 같은 형태를 선형모델이라고 부름 - x가 고차원인 것은 상관없음
 * **error function**: training set으로 학습한 모델이 목표치와 얼마나 다른지 나타내는 함수
-* **RMSE (root-mean-square-error)**: 대표적인 error function 중 하나, 우항의 1/2은 추후 편의를 위해 임의로 추가한 값
+* **RMSE (root-mean-square-error)**: 대표적인 error function 중 하나, 우항의 1/2은 추후 편의를 위해 임의로 추가한 값, 목표값과 추정한 값의 차이에 대해 제곱한 값의 합
 
 $$
 \begin{align*}
