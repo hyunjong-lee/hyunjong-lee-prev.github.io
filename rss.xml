@@ -8,7 +8,17 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Wed, 28 Jan 2015 11:03:41 -0000</pubDate>
+    <pubDate>Wed, 04 Feb 2015 12:00:53 -0000</pubDate>
+    <item>
+      <title>Apache Cordova</title>
+      <link>http://hyunjong-lee.github.io/tech/2015/02/04/Apache_Cordova.html</link>
+      <description>&lt;p&gt;제가 회사를 다니면서 혹은 혼자서 취미생활을 하면서 주로 할일 위주로 시간을 관리했습니다.
+좀 충격적인건 시간관리를 하는 방법은 TODO list위주가 아니라 시간 위주가 되어야 한다는 것 이었습니다.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Feb 2015 12:00:53 -0000</pubDate>
+      <dc:date>2015-02-04T12:00:53Z</dc:date>
+    </item>
     <item>
       <title>C# Decompiler</title>
       <link>http://hyunjong-lee.github.io/tech/2015/01/28/CSharp-Decompiler.html</link>
@@ -63,6 +73,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2015-01-28T11:03:41Z</dc:date>
+    <dc:date>2015-02-04T12:00:53Z</dc:date>
   </channel>
 </rss>
