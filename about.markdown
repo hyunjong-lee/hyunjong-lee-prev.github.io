@@ -41,7 +41,7 @@ date: 2014-12-17 0:00:00
 
 ## Publications
 
-* Kim, Namil, Hyeokeong Lee, Wonjoon Kim*, **Hyunjong Lee**, and Jong Hwan Suh, “[Dynamic Patterns of Industry Convergence: Evidence from a Large Amount of Unstructured Data](http://www.sciencedirect.com/science/article/pii/S0048733315000220)”, Research Policy, 2015
+* Kim, Namil, Hyeokeong Lee, Wonjoon Kim, **Hyunjong Lee**, and Jong Hwan Suh, “[Dynamic Patterns of Industry Convergence: Evidence from a Large Amount of Unstructured Data](http://www.sciencedirect.com/science/article/pii/S0048733315000220)”, Research Policy, 2015
 * Gwangseop Gim, Hogyeong Jeong, **Hyunjong Lee**, Dohyun Yun, "[Group-aware prediction with exponential smoothing for collaborative filtering](http://dl.acm.org/citation.cfm?id=2096115)", Proceedings of the 2nd Challenge on Context-Aware Movie Recommendation, 2011.
 * Il-Chul Moon, Youngmin Kim, **Hyunjong Lee**, and Alice Oh, "[Temporal Issue Trend Identifications in Blogs](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5283805&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5283805)", Proceedings of IEEE SocialCom Symposium on Social Computing Applications. 2009.
 * Alice Oh, **Hyunjong Lee**, and Youngmin Kim, "[User Evaluation of a System for Classifying and Displaying Political Viewpoints of Weblogs](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/viewFile/238/511)", Proceedings of AAAI International Conference on Weblogs and Social Media. 2009.
