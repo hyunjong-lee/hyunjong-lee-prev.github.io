@@ -28,7 +28,7 @@ date: 2014-12-17 0:00:00
 
 * [Machine Learning in coursera]
 * [Probabilistic Graphical Models in coursera]
-
+* [Pattern Discovery in coursera]
 
 ## Skills
 
@@ -54,6 +54,7 @@ date: 2014-12-17 0:00:00
 [GitHub]: https://github.com/hyunjong-lee
 [Machine Learning in coursera]: /assets/pdf/ml-coursera.pdf
 [Probabilistic Graphical Models in coursera]: /assets/pdf/pgm-coursera.pdf
+[Pattern Discovery in coursera]: assets/pdf/pattern_discovery-coursera.pdf
 [Algospot]: https://algospot.com/user/profile/475
 [TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
 [acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
