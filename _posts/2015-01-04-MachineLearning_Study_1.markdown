@@ -68,9 +68,12 @@ $$
 
 * model complexity
 * over-fitting
+  - 학습 데이터에 대해서만 최적화 된 상태로 새로운 데이터에 대해선 예측이 잘 안되는 상태를 말함
+  - 모델이 복잡한데 비해 학습 데이터가 부족할 경우 발생할 가능성이 높음
 * maximum likelihood
 * Bayesian approach, Bayesian model
 * Regularization
+  - 위에서 언급한 over-fitting을 방지하는 방법 중 하나
 * shrinkage
 * ridge regression, weight decay
 * validation set, hold-out set
@@ -90,6 +93,11 @@ $$
  posterior \propto likelihood \times prior
 \end{align*}
 $$
+
+ * 앞면/뒷면으로 이루어진 동전 하나를 던진다고 할 때 아래와 같이 해석 가능
+   - **prior**: 앞면/뒷면이 나타날 확률에 대해 사전에 알고 있는 정보 (앞면/뒷면의 확률은 5:5)
+   - **likelihood**: 실험을 통해 앞면/뒷면이 나타난 분포에 대한 정보
+   - **posterior**: 사전에 알고 있던 분포에 실험을 통해 나타난 분포를 결합하여 나타난 분포
 
  * Gaussian distribution
  * Bayesian curve fitting

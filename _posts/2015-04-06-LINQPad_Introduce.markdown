@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LINQPad - C#을 스크립트 언어처럼
-date:   2015-04-06 20:26:41
+date:   2015-04-06 01:25:41
 categories: tech
 ---
 
