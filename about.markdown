@@ -26,9 +26,9 @@ date: 2014-12-17 0:00:00
 
 ## Certificated
 
-* [Machine Learning in coursera]
-* [Probabilistic Graphical Models in coursera]
 * [Pattern Discovery in coursera]
+* [Probabilistic Graphical Models in coursera]
+* [Machine Learning in coursera]
 
 ## Skills
 
