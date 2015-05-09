@@ -27,6 +27,7 @@ date: 2014-12-17 0:00:00
 ## Certificated
 
 * [Pattern Discovery in coursera]
+* [Text Retrieval and Search Engines]
 * [Probabilistic Graphical Models in coursera]
 * [Machine Learning in coursera]
 
@@ -55,6 +56,7 @@ date: 2014-12-17 0:00:00
 [Machine Learning in coursera]: /assets/pdf/ml-coursera.pdf
 [Probabilistic Graphical Models in coursera]: /assets/pdf/pgm-coursera.pdf
 [Pattern Discovery in coursera]: /assets/pdf/pattern_discovery-coursera.pdf
+[Text Retrieval and Search Engines]: /assets/pdf/text_retrieval_and_search_engine-coursera.pdf
 [Algospot]: https://algospot.com/user/profile/475
 [TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
 [acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
