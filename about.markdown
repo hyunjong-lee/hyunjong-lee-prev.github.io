@@ -28,6 +28,7 @@ date: 2014-12-17 0:00:00
 
 * [Pattern Discovery in coursera]
 * [Text Retrieval and Search Engines]
+* [Cluster Analysis in Data Mining]
 * [Probabilistic Graphical Models in coursera]
 * [Machine Learning in coursera]
 
@@ -57,6 +58,7 @@ date: 2014-12-17 0:00:00
 [Probabilistic Graphical Models in coursera]: /assets/pdf/pgm-coursera.pdf
 [Pattern Discovery in coursera]: /assets/pdf/pattern_discovery-coursera.pdf
 [Text Retrieval and Search Engines]: /assets/pdf/text_retrieval_and_search_engine-coursera.pdf
+[Cluster Analysis in Data Mining]: /assets/pdf/cluster_analysis_in_data_mining.pdf
 [Algospot]: https://algospot.com/user/profile/475
 [TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
 [acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
