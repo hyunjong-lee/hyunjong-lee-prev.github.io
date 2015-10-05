@@ -8,7 +8,17 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Mon, 06 Apr 2015 02:12:00 -0000</pubDate>
+    <pubDate>Wed, 16 Sep 2015 00:48:59 -0000</pubDate>
+    <item>
+      <title>Serverless 실시간 대전게임</title>
+      <link>http://hyunjong-lee.github.io/tech/2015/09/16/AWS-Lambda-Serverless-Turn-Game.html</link>
+      <description>&lt;p&gt;본 포스팅은 &lt;a href=&quot;https://aws.amazon.com/ko/events/gaming-on-aws/hackathon/&quot;&gt;Gaming on AWS 해커톤&lt;/a&gt; 행사 참관 후기 및 구현 내용에 대한 간략한 설명을 담고 있습니다.
+&lt;img src=&quot;/assets/images/aws_hackerton/Gaming_on_AWS_Hackathon_1000.png&quot; alt=&quot;Gaming on AWS Hackerton&quot; /&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Sep 2015 00:48:59 -0000</pubDate>
+      <dc:date>2015-09-16T00:48:59Z</dc:date>
+    </item>
     <item>
       <title>Machine Learning Chapter 2</title>
       <link>http://hyunjong-lee.github.io/study/2015/04/06/MachineLearning_Study_2.html</link>
@@ -93,6 +103,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2015-04-06T02:12:00Z</dc:date>
+    <dc:date>2015-09-16T00:48:59Z</dc:date>
   </channel>
 </rss>
