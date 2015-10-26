@@ -26,9 +26,12 @@ date: 2014-12-17 0:00:00
 
 ## Certificated
 
-* [Pattern Discovery in coursera]
-* [Text Retrieval and Search Engines]
+* [Data Mining Capstone]
+* [Data Visualization]
+* [Text Mining and Analytics]
 * [Cluster Analysis in Data Mining]
+* [Text Retrieval and Search Engines]
+* [Pattern Discovery in coursera]
 * [Probabilistic Graphical Models in coursera]
 * [Machine Learning in coursera]
 
@@ -59,6 +62,9 @@ date: 2014-12-17 0:00:00
 [Pattern Discovery in coursera]: /assets/pdf/pattern_discovery-coursera.pdf
 [Text Retrieval and Search Engines]: /assets/pdf/text_retrieval_and_search_engine-coursera.pdf
 [Cluster Analysis in Data Mining]: /assets/pdf/cluster_analysis_in_data_mining.pdf
+[Text Mining and Analytics]: /assets/pdf/text_mining_and_analytics-coursera.pdf
+[Data Visualization]: /assets/pdf/data_visualization-coursera.pdf
+[Data Mining Capstone]: /assets/pdf/data_mining_capstone-coursera.pdf
 [Algospot]: https://algospot.com/user/profile/475
 [TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
 [acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
