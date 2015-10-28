@@ -26,6 +26,7 @@ date: 2014-12-17 0:00:00
 
 ## Certificated
 
+* [Data Mining Specialization]
 * [Data Mining Capstone]
 * [Data Visualization]
 * [Text Mining and Analytics]
@@ -65,6 +66,7 @@ date: 2014-12-17 0:00:00
 [Text Mining and Analytics]: /assets/pdf/text_mining_and_analytics-coursera.pdf
 [Data Visualization]: /assets/pdf/data_visualization-coursera.pdf
 [Data Mining Capstone]: /assets/pdf/data_mining_capstone-coursera.pdf
+[Data Mining Specialization]: /assets/pdf/data_mining_specialization-coursera.pdf
 [Algospot]: https://algospot.com/user/profile/475
 [TopCoder]: http://community.topcoder.com/tc?module=MemberProfile&cr=22735778
 [acmicpc.net]: https://www.acmicpc.net/user/cosmosLee
