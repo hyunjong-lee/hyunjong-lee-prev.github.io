@@ -53,7 +53,7 @@ date: 2014-12-17 0:00:00
 * Alice Oh, **Hyunjong Lee**, and Youngmin Kim, "[User Evaluation of a System for Classifying and Displaying Political Viewpoints of Weblogs](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/viewFile/238/511)", Proceedings of AAAI International Conference on Weblogs and Social Media. 2009.
 
 
-[LinkedIn]: https://www.linkedin.com/pub/hyunjong-lee
+[LinkedIn]: https://www.linkedin.com/in/hyunjonglee
 [Facebook]: https://www.facebook.com/hyunjong.lee.s
 [Twitter]: https://www.twitter.com/hyunjonglees
 [SlideShare]: http://www.slideshare.net/hyunjonglees
