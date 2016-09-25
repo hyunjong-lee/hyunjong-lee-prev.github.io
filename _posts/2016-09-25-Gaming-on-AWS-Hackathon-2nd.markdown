@@ -6,7 +6,7 @@ categories: Tech
 ---
 
 본 포스팅은 [Gaming on AWS 해커톤] 행사 참관 후기 및 구현 내용에 대한 간략한 설명을 담고 있습니다.
-![Gaming on AWS Hackerton](/assets/images/aws_hackerthon_2016/gamingonaws__hackathon.png)
+![Gaming on AWS Hackerton](/assets/images/aws_hackathon_2016/gamingonaws__hackathon.png)
 
 
 작년 지인의 소개로 [Gaming on AWS 해커톤] 행사를 알게 되었는데 올해도 행사가 열린다기에 참가하기로 결정하고 친구들과 의기투합하였습니다.
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=kX0hnOS1QQQ
 
 2016년 시스템 구성도
 
-![Dodge AWS Architecture](/assets/images/aws_hackerthon_2016/architecture.png)
+![Dodge AWS Architecture](/assets/images/aws_hackathon_2016/architecture.png)
 
 
 2015년 시스템 구성도
@@ -54,13 +54,13 @@ https://www.youtube.com/watch?v=kX0hnOS1QQQ
 ### 대회 당일
 
 
-![행사장 모습](/assets/images/aws_hackerthon_2016/contest_day_morning.jpg){: .img}
+![행사장 모습](/assets/images/aws_hackathon_2016/contest_day_morning.jpg){: .img}
 
 
 
 
 행사 끝나고 단체사진을 찍었는데 작년엔 얼굴이 잘려나와서 올해는 신중히 자리를 정했고 다행이 얼굴이 다 나왔습니다!
-![행사 끝나고 찍은 단체사진](/assets/images/aws_hackerthon_2016/pic2.jpg){: .img}
+![행사 끝나고 찍은 단체사진](/assets/images/aws_hackathon_2016/pic2.jpg){: .img}
 
 `각 팀의 발표를 들으며 제가 어떤 행사에 왔는지 다시금 깨달았습니다.` 라고 작년에 적어두었는데 올해도 같은 느낌이었습니다.
 모든 분들이 게임을 잘 만들어 오셨는데 저희팀은 시스템 구성을 먼저 한 후 게임은 대회장에서 만들었습니다.
@@ -68,12 +68,12 @@ https://www.youtube.com/watch?v=kX0hnOS1QQQ
 
 팀웍이 좋았는지 올해도 수상을 하였습니다. 작년과 같이 2등을 하였는데 올해도 2등 상품은 에코입니다.
 
-![2등 상품 amazon echo](/assets/images/aws_hackerthon_2016/echo.jpg){: .img}
+![2등 상품 amazon echo](/assets/images/aws_hackathon_2016/echo.jpg){: .img}
 
 
 왜인진 모르겠는데 자꾸 콩진호라는 단어가 머리속에서 맴돕니다
 
-![자꾸 떠오르는 콩진호](/assets/images/aws_hackerthon_2016/kong.jpg){: .img}
+![자꾸 떠오르는 콩진호](/assets/images/aws_hackathon_2016/kong.jpg){: .img}
 
 
 [Gaming on AWS 해커톤]: https://aws.amazon.com/ko/events/gaming-on-aws/seoul-02/hackathon/
