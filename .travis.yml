@@ -3,9 +3,8 @@ rvm:
   - 1.9.3
 
 install:
-#  - ./rebund/run download
-#  - bundle install --path vendor/bundle
-  - bundle install
+  - ./rebund/run download
+  - bundle install --path vendor/bundle
 
 script: bundle exec rake site:deploy --quiet
 
