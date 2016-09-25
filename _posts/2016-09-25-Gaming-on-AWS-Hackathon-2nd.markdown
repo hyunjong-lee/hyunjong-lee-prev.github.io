@@ -13,7 +13,8 @@ categories: Tech
 지난해와 마찬가지로 서버 없는 (Serverless) 구조를 통한 게임 플랫폼 개발을 하는 것이 주제였습니다.
 
 아래 포스팅을 보시면 작년에 진행한 내용을 확인하실 수 있습니다.
-[작년 참가후기]({% post_url 2015-09-16-AWS-Lambda-Serverless-Turn-Game %})
+
+* [작년 참가후기]({% post_url 2015-09-16-AWS-Lambda-Serverless-Turn-Game %})
 
 제시된 주제는 다음과 같습니다. 작년과 크게 다르지 않습니다.
 
@@ -150,6 +151,8 @@ https://youtu.be/vD0vmvBCgkc
 
 <a name="gaedrip2">2.</a>
 Serverless Architecture이기 때문에 서버 개발자는 대회장 들어가자마자 공손히 인사 후 나가라는 이야기 ...
+
+----------
 
 
 [Gaming on AWS 해커톤]: https://aws.amazon.com/ko/events/gaming-on-aws/seoul-02/hackathon/
