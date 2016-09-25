@@ -144,7 +144,7 @@ https://youtu.be/vD0vmvBCgkc
 ----------
 
 <sup>[1](#gaedrip1)</sup>
-팀원이 5명이 되었을 때, 아래의 이미지를 슬랙에 공유하니 서로 자신이 <del>쓰레기</del> 라며 설전을 벌인 일
+팀원이 5명이 되었을 때, 아래의 이미지를 슬랙에 공유하니 <del>서로 자신이 쓰레기라며</del> 설전을 벌인 일
 
 ![인간이 5명이나 모이면 반드시 1명은 쓰레기가 있다!](/assets/images/aws_hackathon_2016/five.png){: .img}
 
