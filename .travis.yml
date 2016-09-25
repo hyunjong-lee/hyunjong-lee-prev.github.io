@@ -1,8 +1,9 @@
 language: ruby
 
 install:
-  - ./rebund/run download
-  - bundle install --path vendor/bundle
+#  - ./rebund/run download
+#  - bundle install --path vendor/bundle
+  - bundle install
 
 script: bundle exec rake site:deploy --quiet
 
