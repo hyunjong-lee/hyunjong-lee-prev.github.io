@@ -95,15 +95,15 @@ https://youtu.be/vD0vmvBCgkc
 이상한 것은 죽으면 죽을수록 사람들의 웃음꽃이 피어납니다. 왜죠?
 
 제가 담당했던 부분에 대한 발표를 시작합니다.
-방금전까지 웃으시던 분들의 웃음이 싹 사라집니다.
-<del>죄송합니다...</del>
+방금전까지 웃으시던 분들의 웃음이 싹 사라집니다. <del>죄송합니다...</del>
 
 ![참 재밌는 이탈자 모델 발표](/assets/images/aws_hackathon_2016/presentation.jpg){: .img}
 
+1. 행사 끝나고 단체사진을 찍었는데 작년엔 얼굴이 잘려나왔던 기억을 떠올려봅니다.
+2. 얼굴이 나오기 좋은 위치를 탐색합니다.
+3. 해당 위치에 자리를 잡습니다.
+4. 다행이 얼굴이 잘리지 않습니다!?
 
-행사 끝나고 단체사진을 찍었는데 작년엔 얼굴이 잘려나왔던 기억을 떠올려봅니다.
-얼굴이 나오기 좋은 장소를 골라잡습니다.
-다행이 얼굴이 잘리지 않습니다!?
 ![행사 끝나고 찍은 단체사진](/assets/images/aws_hackathon_2016/pic2.jpg){: .img}
 
 `각 팀의 발표를 들으며 제가 어떤 행사에 왔는지 다시금 깨달았습니다.` 라고 작년에 적어두었는데 올해도 같은 느낌이었습니다.
@@ -122,7 +122,7 @@ https://youtu.be/vD0vmvBCgkc
 
 
 모든 행사가 끝나니 밤 10시가 넘었습니다.
-맛있는 식사와 재밌는 대회였는데 또 무엇인가 쥐어주십니다.
+맛있는 식사와 좋은 개발환경을 제공하는 재밌는 대회였는데 또 무언가 쥐어주십니다.
 참가한 모든 분들에게 주셨습니다.
 
 ![자꾸 무언가 주시려는 아마존](/assets/images/aws_hackathon_2016/gift.jpg){: .img}
@@ -143,14 +143,13 @@ https://youtu.be/vD0vmvBCgkc
 
 ----------
 
-<sup>[1](#gaedrip)</sup>
-<ul>
-<li>팀원이 5명이 되었을 때, 아래의 이미지를 슬랙에 공유하니 서로 자신이 <del>쓰레기</del> 라며 설전을 벌인 일
-![인간이 5명이나 모이면 반드시 1명은 쓰레기가 있다!](/assets/images/aws_hackathon_2016/five.jpg){: .img}
-</li>
-<li>Serverless Architecture이기 때문에 서버 개발자는 대회장 들어가자마자 공손히 인사 후 나가라는 이야기 ...</li>
-</ul>
+<sup>[1](#gaedrip1)</sup>
+팀원이 5명이 되었을 때, 아래의 이미지를 슬랙에 공유하니 서로 자신이 <del>쓰레기</del> 라며 설전을 벌인 일
 
+![인간이 5명이나 모이면 반드시 1명은 쓰레기가 있다!](/assets/images/aws_hackathon_2016/five.jpg){: .img}
+
+<sup>[2](#gaedrip2)</sup>
+Serverless Architecture이기 때문에 서버 개발자는 대회장 들어가자마자 공손히 인사 후 나가라는 이야기 ...
 
 
 [Gaming on AWS 해커톤]: https://aws.amazon.com/ko/events/gaming-on-aws/seoul-02/hackathon/
