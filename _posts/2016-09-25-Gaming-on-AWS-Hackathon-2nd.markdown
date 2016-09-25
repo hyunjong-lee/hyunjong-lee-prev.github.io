@@ -143,12 +143,12 @@ https://youtu.be/vD0vmvBCgkc
 
 ----------
 
-<sup>[1](#gaedrip1)</sup>
+<a name="gaedrip1">1</a>
 팀원이 5명이 되었을 때, 아래의 이미지를 슬랙에 공유하니 <del>서로 자신이 쓰레기라며</del> 설전을 벌인 일
 
 ![인간이 5명이나 모이면 반드시 1명은 쓰레기가 있다!](/assets/images/aws_hackathon_2016/five.png){: .img}
 
-<sup>[2](#gaedrip2)</sup>
+<a name="gaedrip2">2</a>
 Serverless Architecture이기 때문에 서버 개발자는 대회장 들어가자마자 공손히 인사 후 나가라는 이야기 ...
 
 
