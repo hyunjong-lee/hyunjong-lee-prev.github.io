@@ -8,7 +8,17 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Sun, 25 Sep 2016 10:53:24 -0000</pubDate>
+    <pubDate>Sat, 31 Dec 2016 06:20:13 -0000</pubDate>
+    <item>
+      <title>공대생이 읽은 JUSTICE 정의란 무엇이가</title>
+      <link>http://hyunjong-lee.github.io/book/2016/12/31/BOOK-JUSTICE.html</link>
+      <description>&lt;p&gt;본 포스팅은 [정의란 무엇인가]에 대한 저의 생각을 담고 있습니다.
+&lt;img src=&quot;/assets/images/book_justice/justice.jpg&quot; alt=&quot;정의란 무엇인가&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 31 Dec 2016 06:20:13 -0000</pubDate>
+      <dc:date>2016-12-31T06:20:13Z</dc:date>
+    </item>
     <item>
       <title>Gaming on AWS Hackathon 참가 후기</title>
       <link>http://hyunjong-lee.github.io/tech/2016/09/25/Gaming-on-AWS-Hackathon-2nd.html</link>
@@ -113,6 +123,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2016-09-25T10:53:24Z</dc:date>
+    <dc:date>2016-12-31T06:20:13Z</dc:date>
   </channel>
 </rss>
