@@ -30,6 +30,16 @@
       <dc:date>2016-09-25T10:53:24Z</dc:date>
     </item>
     <item>
+      <title>공대생이 본 볼빨간사춘기 콘서트 - 어반 뮤직 페스티벌</title>
+      <link>http://hyunjong-lee.github.io/life/2016/01/01/RED-PLANET.html</link>
+      <description>&lt;p&gt;본 포스팅은 [어반 뮤직 페스티벌 - 볼빨간 사춘기] 후기를 담고 있습니다.
+&lt;img src=&quot;/assets/images/red_planet/good.jpg&quot; alt=&quot;볼빨간 사춘기&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Jan 2016 11:45:56 -0000</pubDate>
+      <dc:date>2016-01-01T11:45:56Z</dc:date>
+    </item>
+    <item>
       <title>Serverless 실시간 대전게임</title>
       <link>http://hyunjong-lee.github.io/tech/2015/09/16/AWS-Lambda-Serverless-Turn-Game.html</link>
       <description>&lt;p&gt;본 포스팅은 &lt;a href=&quot;https://aws.amazon.com/ko/events/gaming-on-aws/hackathon/&quot;&gt;Gaming on AWS 해커톤&lt;/a&gt; 행사 참관 후기 및 구현 내용에 대한 간략한 설명을 담고 있습니다.
