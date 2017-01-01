@@ -8,7 +8,17 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Sat, 31 Dec 2016 06:20:13 -0000</pubDate>
+    <pubDate>Sun, 01 Jan 2017 11:45:56 -0000</pubDate>
+    <item>
+      <title>공대생이 본 볼빨간사춘기 콘서트 - 어반 뮤직 페스티벌</title>
+      <link>http://hyunjong-lee.github.io/life/2017/01/01/RED-PLANET.html</link>
+      <description>&lt;p&gt;본 포스팅은 [어반 뮤직 페스티벌 - 볼빨간 사춘기] 후기를 담고 있습니다.
+&lt;img src=&quot;/assets/images/red_planet/good.jpg&quot; alt=&quot;볼빨간 사춘기&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 01 Jan 2017 11:45:56 -0000</pubDate>
+      <dc:date>2017-01-01T11:45:56Z</dc:date>
+    </item>
     <item>
       <title>공대생이 읽은 JUSTICE 정의란 무엇이가</title>
       <link>http://hyunjong-lee.github.io/book/2016/12/31/BOOK-JUSTICE.html</link>
@@ -28,16 +38,6 @@
 </description>
       <pubDate>Sun, 25 Sep 2016 10:53:24 -0000</pubDate>
       <dc:date>2016-09-25T10:53:24Z</dc:date>
-    </item>
-    <item>
-      <title>공대생이 본 볼빨간사춘기 콘서트 - 어반 뮤직 페스티벌</title>
-      <link>http://hyunjong-lee.github.io/life/2016/01/01/RED-PLANET.html</link>
-      <description>&lt;p&gt;본 포스팅은 [어반 뮤직 페스티벌 - 볼빨간 사춘기] 후기를 담고 있습니다.
-&lt;img src=&quot;/assets/images/red_planet/good.jpg&quot; alt=&quot;볼빨간 사춘기&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 01 Jan 2016 11:45:56 -0000</pubDate>
-      <dc:date>2016-01-01T11:45:56Z</dc:date>
     </item>
     <item>
       <title>Serverless 실시간 대전게임</title>
@@ -133,6 +133,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2016-12-31T06:20:13Z</dc:date>
+    <dc:date>2017-01-01T11:45:56Z</dc:date>
   </channel>
 </rss>
