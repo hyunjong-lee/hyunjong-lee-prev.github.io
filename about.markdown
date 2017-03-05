@@ -4,27 +4,49 @@ title: About
 date: 2014-12-17 0:00:00
 ---
 
-* Hyunjong Lee
+### Hyunjong Lee
+
 * [LinkedIn]
 * [SlideShare]
 
 
-## Interested in
+### Interested in
 
+* Machine Learning Techniques
 * Problem Solving
-* Machine Learning
-* Education System
 
 
-## Majored in
+### Majored in
 
-* Computer Science & Engineering
-* Natural Language Processing
+* Recommendation System
 * Sentiment Analysis
-* Topic Model
+* Computer Science & Engineering
 
 
-## Certificated
+### Education
+
+* Korea Advanced Institute of Science and Technology
+	* M.S. (August 2010)
+	* Department of Computer Science
+	* Sentiment Analysis
+* Inha University
+	* B.S. (August 2008)
+	* Department of Computer Science and Engineering
+
+
+### Industry Experience
+
+* Kakao (Feb 2015 -)
+	* Advanced Recommendation Technology (ART)
+		* Scalable realtime recommendation
+* Bluehole Studio (May 2012 - Nov 2014)
+	* Game log analysis
+	* MMORPG game server programming
+* WiseNut DataMining TF (Sep 2010 – May 2012) 
+	* Topic Modeling
+
+
+### Certificated
 
 * [Data Mining Specialization]
 * [Data Mining Capstone]
@@ -36,22 +58,40 @@ date: 2014-12-17 0:00:00
 * [Probabilistic Graphical Models in coursera]
 * [Machine Learning in coursera]
 
-## Skills
 
-* *system/server/web*
-* C/C++, C#
-* MS-SQL, MySQL, Sqlite, MongoDB
-* ASP.net, Nancy
-* AngularJS
+### Skills in Computer Engineering
+
+* C/C++, C#, JAVA, Python
+* HBase/Hadoop, DynamoDB, MS-SQL, MySQL, Sqlite
+* Netty, Nancy, Django, AngularJS
 
 
-## Publications
+### Publications
 
 * Ullah Rahat, Naveen Amblee, **Hyunjong Lee**, and Wonjoon Kim, “[From Valence to Emotions: Exploring the Distribution of Emotions in Online Product Reviews](http://www.sciencedirect.com/science/article/pii/S0167923615002018),” Decision Support Systems, 2016
 * Kim, Namil, Hyeokeong Lee, Wonjoon Kim, **Hyunjong Lee**, and Jong Hwan Suh, “[Dynamic Patterns of Industry Convergence: Evidence from a Large Amount of Unstructured Data](http://www.sciencedirect.com/science/article/pii/S0048733315000220)”, Research Policy, 2015
 * Gwangseop Gim, Hogyeong Jeong, **Hyunjong Lee**, Dohyun Yun, "[Group-aware prediction with exponential smoothing for collaborative filtering](http://dl.acm.org/citation.cfm?id=2096115)", Proceedings of the 2nd Challenge on Context-Aware Movie Recommendation, 2011.
 * Il-Chul Moon, Youngmin Kim, **Hyunjong Lee**, and Alice Oh, "[Temporal Issue Trend Identifications in Blogs](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5283805&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5283805)", Proceedings of IEEE SocialCom Symposium on Social Computing Applications. 2009.
 * Alice Oh, **Hyunjong Lee**, and Youngmin Kim, "[User Evaluation of a System for Classifying and Displaying Political Viewpoints of Weblogs](http://www.aaai.org/ocs/index.php/ICWSM/09/paper/viewFile/238/511)", Proceedings of AAAI International Conference on Weblogs and Social Media. 2009.
+
+
+### Award winning career
+
+* AWS Gaming on AWS Hackathon 2016 - Building Serverless Architecture, 2nd
+* AWS Gaming on AWS Hackathon 2015 - Building Serverless Architecture, 2nd
+* WiseNut Programming Competition 2011, the first place
+* WiseNut Programming Competition 2010, 2nd
+* MS Imagine Cup Korea site 2009, the first place
+* ACM ICPC Asia Programming Contest Seoul Site 2007, 13th
+* Collegiate Programming Contest 2007, bronze
+* ACM ICPC Asia Programming Contest Seoul Site 2005, 27th
+
+
+### Objectives
+
+* Happy/Enjoy Life with Friends
+* Top Level Specialist in Machine Learning
+* Expert in Computer Engineer
 
 
 [LinkedIn]: https://www.linkedin.com/in/hyunjonglee
