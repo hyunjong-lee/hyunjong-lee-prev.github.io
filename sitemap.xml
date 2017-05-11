@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://hyunjong-lee.github.io/</loc>
-		<lastmod>2017-04-06</lastmod>
+		<lastmod>2017-05-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>http://hyunjong-lee.github.io/review/2017/05/11/Make_Your_Own_Neural_Network.html</loc>
+		<lastmod>2017-05-11</lastmod>
 	</url>
 	
 	<url>

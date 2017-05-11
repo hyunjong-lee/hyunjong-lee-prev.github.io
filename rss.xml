@@ -8,7 +8,17 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Thu, 06 Apr 2017 01:42:10 -0000</pubDate>
+    <pubDate>Thu, 11 May 2017 21:38:22 -0000</pubDate>
+    <item>
+      <title>서평 [신경망 첫걸음]</title>
+      <link>http://hyunjong-lee.github.io/review/2017/05/11/Make_Your_Own_Neural_Network.html</link>
+      <description>&lt;p&gt;본 포스팅은 &lt;a href=&quot;http://www.hanbit.co.kr/store/books/look.php?p_code=B1910379076&quot;&gt;신경망 첫걸음&lt;/a&gt; 에 대한 후기를 담고 있습니다.
+자세한 사항은 한빛미디어 홈페이지에서 확인하실 수 있습니다.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 11 May 2017 21:38:22 -0000</pubDate>
+      <dc:date>2017-05-11T21:38:22Z</dc:date>
+    </item>
     <item>
       <title>서평 [C#과 데이터베이스로 누구나 쉽게 주식 자동매매 시스템 만들기]</title>
       <link>http://hyunjong-lee.github.io/review/2017/04/06/Trading_System_using_CSharp.html</link>
@@ -153,6 +163,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2017-04-06T01:42:10Z</dc:date>
+    <dc:date>2017-05-11T21:38:22Z</dc:date>
   </channel>
 </rss>
