@@ -76,7 +76,7 @@ categories: Review
 그렇게 되면 제가 살 집의 모습이 컴퓨터 화면으로 바로 확인이 될테니까요.
 
 - ![실내 투시도](/assets/images/sketchup_v-ray/floor_plan.jpg){: .img} 
-- ![실내 투시도](/assets/images/sketchup_v-ray/floor_plan2.jpg){: .img}
+- ![실내 투시도](/assets/images/sketchup_v-ray/floor_plan_2.jpg){: .img}
 
 
 #### 파트5에서는 주택 외부 투시도가 설명되어 있습니다.
