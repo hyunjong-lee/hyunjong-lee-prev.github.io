@@ -64,9 +64,9 @@ categories: Review
   - https://arxiv.org/abs/1805.06939
   - http://aclweb.org/anthology/P18-1213
 
-#### L2W (Language 2 Write) 모델을 설명해주며 기존 방식의 생성모델 (LSTM, GRU) 의 결과물과 비교하며 기존보다 좋은 결과가 나옴을 보임
+#### L2W (Learning 2 Write) 모델을 설명해주며 기존 방식의 생성모델 (LSTM, GRU) 의 결과물과 비교하며 기존보다 좋은 결과가 나옴을 보임
 - 특히 사용자 평가에서는 2배이상 좋은 점수를 얻고 있음
-- ![Language to Write, L2W](/assets/images/samsung_ai_forum/l2w.jpg)
+- ![Learning to Write, L2W](/assets/images/samsung_ai_forum/l2w.jpg)
 
 #### 위 결과물에 대한 github repo
 - https://github.com/uwnlp
