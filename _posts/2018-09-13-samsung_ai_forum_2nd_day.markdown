@@ -52,7 +52,9 @@ categories: Review
 
 - 관련 영상: https://www.microsoft.com/en-us/research/video/nw-nlp-2018-ben-taskar-invited-talk-learning-reasoning-world-using-language/
 
-#### 아마존에서 2017년에 진행한 Alexa 대회에서 우승
+#### 2017 Alexa Prize 에서 우승
+- 사람과 자연스럽게 대화하는 것이 목표
+- 사람과 10분 22초간 대화하였으며 평점 3.17 (5점만점) 달성 
 - https://www.washington.edu/news/2017/11/28/uw-students-win-amazons-inaugural-alexa-prize-for-most-engaging-and-conversant-socialbot/
 
 #### 기존 모델 (Language Model) 은 사용자와 대화하는데 있어 문제가 있음
@@ -66,5 +68,5 @@ categories: Review
 - 특히 사용자 평가에서는 2배이상 좋은 점수를 얻고 있음
 - ![Language to Write, L2W](/assets/images/samsung_ai_forum/l2w.jpg)
 
-#### 각종 결과물에 대한 github repo
+#### 위 결과물에 대한 github repo
 - https://github.com/uwnlp
