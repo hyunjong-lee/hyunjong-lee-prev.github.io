@@ -3,8 +3,6 @@ rvm:
   - 1.9.3
 
 install:
-  - ./rebund/run download
-  - gem install rb-inotify
   - bundle install --path vendor/bundle
 
 script: bundle exec rake site:deploy --quiet
