@@ -36,7 +36,7 @@ date: 2014-12-17 0:00:00
 
 ### Industry Experience
 
-* Kakao (Feb 2015 -)
+* Kakao (Feb 2015 - Dec 2017)
 	* Advanced Recommendation Technology (ART)
 		* Scalable realtime recommendation
 * Bluehole Studio (May 2012 - Nov 2014)
