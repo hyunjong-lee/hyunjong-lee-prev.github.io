@@ -4,6 +4,7 @@ rvm:
 
 install:
   - ./rebund/run download
+  - gem install --version '~>0.9' rb-inotify
   - bundle install --path vendor/bundle
 
 script: bundle exec rake site:deploy --quiet
