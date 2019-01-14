@@ -69,6 +69,7 @@ date: 2014-12-17 0:00:00
 
 ### Publications
 
+* **Hyunjong Lee**, Youngin Jo, Sanghyuk Chun, Kwangseob Kim, “[A study on intelligent personalized push notification with user history](https://ieeexplore.ieee.org/abstract/document/8258081),” IEEE International Conference on Big Data, 2017
 * Ullah Rahat, Naveen Amblee, **Hyunjong Lee**, and Wonjoon Kim, “[From Valence to Emotions: Exploring the Distribution of Emotions in Online Product Reviews](http://www.sciencedirect.com/science/article/pii/S0167923615002018),” Decision Support Systems, 2016
 * Kim, Namil, Hyeokeong Lee, Wonjoon Kim, **Hyunjong Lee**, and Jong Hwan Suh, “[Dynamic Patterns of Industry Convergence: Evidence from a Large Amount of Unstructured Data](http://www.sciencedirect.com/science/article/pii/S0048733315000220)”, Research Policy, 2015
 * Gwangseop Gim, Hogyeong Jeong, **Hyunjong Lee**, Dohyun Yun, "[Group-aware prediction with exponential smoothing for collaborative filtering](http://dl.acm.org/citation.cfm?id=2096115)", Proceedings of the 2nd Challenge on Context-Aware Movie Recommendation, 2011.
