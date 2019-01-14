@@ -36,6 +36,7 @@ date: 2014-12-17 0:00:00
 
 ### Industry Experience
 
+* PUBG (Dec 2017 -)
 * Kakao (Feb 2015 - Dec 2017)
 	* Advanced Recommendation Technology (ART)
 		* Scalable realtime recommendation
