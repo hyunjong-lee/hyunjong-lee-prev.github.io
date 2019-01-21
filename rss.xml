@@ -8,7 +8,16 @@
     <title>Human Learning</title>
     <link>http://hyunjong-lee.github.io</link>
     <description>Learning Anything or Nothing</description>
-    <pubDate>Tue, 15 Jan 2019 01:26:48 -0000</pubDate>
+    <pubDate>Sun, 20 Jan 2019 21:08:39 -0000</pubDate>
+    <item>
+      <title>Xamarin으로 iOS 앱 실행해보기</title>
+      <link>http://hyunjong-lee.github.io/tech/2019/01/20/Xamarin-iOS-HelloWorld.html</link>
+      <description>&lt;p&gt;본 포스팅은 &lt;a href=&quot;https://visualstudio.microsoft.com/xamarin/&quot;&gt;Xamarin&lt;/a&gt;을 활용하여 iOS 앱을 빌드해서 실행해 본 과정을 담고 있습니다.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 20 Jan 2019 21:08:39 -0000</pubDate>
+      <dc:date>2019-01-20T21:08:39Z</dc:date>
+    </item>
     <item>
       <title>돈이란 무엇인가</title>
       <link>http://hyunjong-lee.github.io/review/2019/01/15/THINK-MONEY-THINK-LIFE.html</link>
@@ -211,6 +220,6 @@ GitHub Pages를 통해 블로그를 만들 수 있고 버전관리 될 수 있�
       <pubDate>Wed, 17 Sep 2014 02:05:00 -0000</pubDate>
       <dc:date>2014-09-17T02:05:00Z</dc:date>
     </item>
-    <dc:date>2019-01-15T01:26:48Z</dc:date>
+    <dc:date>2019-01-20T21:08:39Z</dc:date>
   </channel>
 </rss>
